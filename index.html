@@ -122,7 +122,7 @@ footer span {
         </header>
         <main>
             <div class="main-image">
-                <img src="sample4.jpeg" alt="Luana Hair & Make Model">
+                <img src="sample4.jpg" alt="Luana Hair & Make Model">
             </div>
             <div class="news-container">
                 <div class="news-header">お知らせ</div>
