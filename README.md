@@ -9,117 +9,111 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            font-size: 14px;
         }
         .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 20px;
         }
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            margin-bottom: 20px;
         }
         .logo {
+            font-size: 18px;
             font-weight: bold;
-            white-space: nowrap;
         }
-        .logo-small {
-            font-size: 16px;
+        .logo span {
+            font-size: 28px;
+            color: #000;
         }
-        .logo-large {
-            font-size: 32px;
-            margin-left: 5px;
-        }
-        nav ul {
-            list-style-type: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
+        nav a {
             margin-left: 20px;
+            text-decoration: none;
+            color: #000;
         }
         .main-image {
             width: 100%;
-            height: 600px;
-            overflow: hidden;
-            position: relative;
+            height: 500px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
         }
-        .main-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center 30%;
+        .news-container {
+            border: 1px solid #000;
+            margin-bottom: 10px;
         }
-        .announcements {
-            margin-top: 20px;
-            border: 1px solid #ccc;
+        .news-header {
+            text-align: center;
+            font-weight: bold;
+            padding: 5px 0;
+            border-bottom: 1px solid #000;
         }
-        .announcement-item {
-            padding: 10px 20px;
-            border-bottom: 1px solid #ccc;
-            margin: 0;
+        .news-content {
+            padding: 0;
         }
-        .announcement-item:last-child {
-            border-bottom: none;
+        .news-item {
+            padding: 10px;
+        }
+        .news-item:not(:last-child) {
+            border-bottom: 1px solid #000;
         }
         .more-link {
-            text-align: right;
-            padding: 10px 20px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .more-link a {
+            color: #000;
+            text-decoration: none;
         }
         footer {
-            margin-top: 40px;
-            background-color: #f0f0f0;
+            margin-top: 20px;
             text-align: center;
-            padding: 20px 0;
+            font-size: 12px;
         }
-        .footer-item {
+        footer p {
             margin: 5px 0;
         }
-        .underline {
-            border-bottom: 1px solid blue;
-            display: inline-block;
-            padding-bottom: 2px;
+        footer span {
+            text-decoration: underline;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo">
-                <span class="logo-small">hair & make</span>
-                <span class="logo-large">Luana</span>
-            </div>
+            <div class="logo">hair & make <span>Luana</span></div>
             <nav>
-                <ul>
-                    <li><a href="#menu">メニュー</a></li>
-                    <li><a href="#staff">スタッフ</a></li>
-                    <li><a href="#gallery">ギャラリー</a></li>
-                    <li><a href="#contact">問合せ</a></li>
-                </ul>
+                <a href="#">メニュー</a>
+                <a href="#">スタッフ</a>
+                <a href="#">ギャラリー</a>
+                <a href="#">問合せ</a>
             </nav>
         </header>
-        
         <main>
+            <div class="main-image"></div>
             <div class="main-image">
-                <img src="young-buck-salon.png" alt="Stylish man with blonde hair">
+                <img src="sample4.jpeg" alt="Luana Hair & Make Model">
             </div>
-            
-            <div class="announcements">
-                <h2 class="announcement-item">お知らせ</h2>
-                <p class="announcement-item">→当社ヘアモデルのCM出演</p>
-                <p class="announcement-item">→Amazon Prime人気恋愛リアリティー番組ラブトランジット出演カップルにご協力いただきAWコレクションレセプションに出席しました。</p>
-                <p class="more-link">→もっと見る</p>
+            <div class="news-container">
+                <div class="news-header">お知らせ</div>
+                <div class="news-content">
+                    <div class="news-item">→当社ヘアモデルのCM出演</div>
+                    <div class="news-item">→Amazon Prime人気恋愛リアリティー番組ラブトランジット出演カップルにご招待いただきAWコレクションレセプションに出席しました。</div>
+                </div>
+            </div>
+            <div class="more-link">
+                <a href="#">→もっと見る</a>
             </div>
         </main>
-        
         <footer>
-            <p class="footer-item"><span class="underline">住所 東京都XXXX-XXX-XXX</span></p>
-            <p class="footer-item"><span class="underline">電話番号 000-0000-0000</span></p>
-            <p class="footer-item"><span class="underline">営業時間 00:00-24:00</span></p>
-            <p class="footer-item"><span class="underline">定休日 火曜日</span></p>
+            <p><span>住所</span>: <span>東京都XXXX-XXX-XXX</span></p>
+            <p><span>電話番号</span>: <span>000-0000-0000</span></p>
+            <p><span>営業時間</span>: <span>00:00-24:00</span></p>
+            <p><span>定休日</span>: <span>火曜日</span></p>
         </footer>
     </div>
 </body>
