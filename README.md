@@ -4,127 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hair & make Luana</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
     <style>
-        body {
-            font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+        body, html {
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
         header {
-            background-color: #fff;
-            padding: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 20px 0;
         }
         .logo {
-            display: flex;
-            align-items: baseline;
+            font-weight: bold;
+            white-space: nowrap;
         }
         .logo-small {
-            font-size: 14px;
-            font-weight: normal;
-            color: #000;
+            font-size: 16px;
         }
         .logo-large {
             font-size: 32px;
-            font-weight: bold;
-            color: #000080;
             margin-left: 5px;
         }
-        nav a {
-            margin-left: 15px;
-            text-decoration: none;
-            color: #000;
-        }
-        .main-image-placeholder {
-            width: 100%;
-            height: 70vh;
-            background-color: #f0f0f0;
+        nav ul {
+            list-style-type: none;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            color: #e68484;
+            margin: 0;
+            padding: 0;
         }
-        .news {
-            margin: 20px auto;
-            width: 80%;
+        nav ul li {
+            margin-left: 20px;
+        }
+        .main-image {
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            position: relative;
+        }
+        .main-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+        }
+        .announcements {
+            margin-top: 20px;
             border: 1px solid #ccc;
         }
-        .news h2 {
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 10px;
-            font-weight: normal;
-        }
-        .news-item {
-            padding: 10px;
+        .announcement-item {
+            padding: 10px 20px;
             border-bottom: 1px solid #ccc;
+            margin: 0;
         }
-        .news-more {
+        .announcement-item:last-child {
+            border-bottom: none;
+        }
+        .more-link {
             text-align: right;
-            padding: 10px;
+            padding: 10px 20px;
         }
         footer {
+            margin-top: 40px;
             background-color: #f0f0f0;
-            padding: 10px 0;
             text-align: center;
-            margin-top: auto;
+            padding: 20px 0;
         }
-        footer p {
+        .footer-item {
             margin: 5px 0;
-            padding: 0;
-            line-height: 1.5;
         }
-        footer span {
-            border-bottom: 1px solid #0000FF;
+        .underline {
+            border-bottom: 1px solid blue;
             display: inline-block;
+            padding-bottom: 2px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <span class="logo-small">hair & make</span>
-            <span class="logo-large">Luana</span>
-        </div>
-        <nav>
-            <a href="#menu">メニュー</a>
-            <a href="#staff">スタッフ</a>
-            <a href="#gallery">ギャラリー</a>
-            <a href="#contact">問合せ</a>
-        </nav>
-    </header>
-    
-    <main>
-        <div class="main-image-placeholder">
-            <img src="young-buck-salon.png">
-        </div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-small">hair & make</span>
+                <span class="logo-large">Luana</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>メニュー</li>
+                    <li>スタッフ</li>
+                    <li>ギャラリー</li>
+                    <li>問合せ</li>
+                </ul>
+            </nav>
+        </header>
         
-        <div class="news">
-            <h2>お知らせ</h2>
-            <div class="news-item">
-                →当社ヘアモデルのCM出演
+        <main>
+            <div class="main-image">
+                <img src="young-buck-salon.png" alt="Stylish man with blonde hair">
             </div>
-            <div class="news-item">
-                →Amazon Prime人気恋愛リアリティー番組ラブトランジット出演カップルにご招待いただきAWコレクションレセプションに出席しました。
+            
+            <div class="announcements">
+                <h2 class="announcement-item">お知らせ</h2>
+                <p class="announcement-item">→当社ヘアモデルのCM出演</p>
+                <p class="announcement-item">→Amazon Prime人気恋愛リアリティー番組ラブトランジット出演カップルにご協力いただきAWコレクションレセプションに出席しました。</p>
+                <p class="more-link">→もっと見る</p>
             </div>
-            <div class="news-more">
-                <a href="#more">→もっと見る</a>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <p><span>住所: 東京都XXXX-XXX-XXX</span></p>
-        <p><span>電話番号: 000-0000-0000</span></p>
-        <p><span>営業時間: 00:00-24:00</span></p>
-        <p><span>定休日: 火曜日</span></p>
-    </footer>
+        </main>
+        
+        <footer>
+            <p class="footer-item"><span class="underline">住所 東京都XXXX-XXX-XXX</span></p>
+            <p class="footer-item"><span class="underline">電話番号 000-0000-0000</span></p>
+            <p class="footer-item"><span class="underline">営業時間 00:00-24:00</span></p>
+            <p class="footer-item"><span class="underline">定休日 火曜日</span></p>
+        </footer>
+    </div>
 </body>
 </html>
