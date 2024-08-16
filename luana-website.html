@@ -97,7 +97,7 @@
         <main>
             <main>
                 <div class="main-image">
-                    <img src="sample4.jpg" width="800" height="600">
+                    <img src="sample4.jpg" width="1000" height="800">
                 </div>                
             </main>            
             <div class="news-container">
