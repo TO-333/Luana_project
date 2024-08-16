@@ -103,7 +103,7 @@
     
     <main>
         <div class="main-image-placeholder">
-            <img src="sample4.jpeg" alt="Stylish man with blonde hair">
+            <img src="sample4.jpeg">
         </div>
         
         <div class="news">
