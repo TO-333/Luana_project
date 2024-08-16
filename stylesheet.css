@@ -1,108 +1,77 @@
-/* General Styles */
-body {
-    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+/* styles.css */
+body, html {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
-
-/* Header Styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 header {
-    background-color: #fff;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
-
 .logo {
-    display: flex;
-    align-items: baseline;
+    font-size: 18px;
+    font-weight: bold;
 }
-
-.logo-small {
-    font-size: 14px;
-    font-weight: normal;
+.logo span {
+    font-size: 28px;
     color: #000;
 }
-
-.logo-large {
-    font-size: 32px;
-    font-weight: bold;
-    color: #000080;
-    margin-left: 5px;
-}
-
 nav a {
-    margin-left: 15px;
+    margin-left: 20px;
     text-decoration: none;
     color: #000;
 }
-
-/* Main Image Placeholder */
-.main-image-placeholder {
-    width: 100%;
-    height: 70vh;
+.main-image {
+    width: 50%;
+    height: 50px;
     background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 20px;
     overflow: hidden;
 }
-
-.main-image-placeholder img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+.news-container {
+    border: 1px solid #000;
+    margin-bottom: 10px;
 }
-
-/* News Section */
-.news {
-    margin: 20px auto;
-    width: 80%;
-    border: 1px solid #ccc;
+.news-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: 1px solid #000;
 }
-
-.news h2 {
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 10px;
-    font-weight: normal;
+.news-content {
+    padding: 0;
 }
-
 .news-item {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
 }
-
-.news-more {
-    text-align: right;
-    padding: 10px;
+.news-item:not(:last-child) {
+    border-bottom: 1px solid #000;
 }
-
-/* Footer Styles */
-footer {
-    background-color: #f0f0f0;
-    padding: 10px 0;
+.more-link {
     text-align: center;
-    margin-top: auto;
+    margin-top: 5px;
 }
-
+.more-link a {
+    color: #000;
+    text-decoration: none;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
 footer p {
     margin: 5px 0;
-    padding: 0;
-    line-height: 1.5;
 }
-
 footer span {
-    border-bottom: 1px solid #0000FF;
-    display: inline-block;
-}
-
-footer span {
-    border-bottom: 1px solid #0000FF;
-    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;
 }
