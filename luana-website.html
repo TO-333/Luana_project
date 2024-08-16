@@ -38,7 +38,7 @@
         }
         .main-image {
             width: 100%;
-            height: 500px;
+            height: 800px;
             background-color: #f0f0f0;
             margin-bottom: 20px;
         }
@@ -97,7 +97,7 @@
         <main>
             <main>
                 <div class="main-image">
-                    <img src="sample4.jpg" width="1000" height="800">
+                    <img src="sample4.jpg" width="1500" height="300">
                 </div>                
             </main>            
             <div class="news-container">
