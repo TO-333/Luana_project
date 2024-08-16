@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hair & make Luana</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
     <style>
         body {
             font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
@@ -102,7 +103,7 @@
     
     <main>
         <div class="main-image-placeholder">
-            <img src="young-buck-salon.png" alt="Stylish man with blonde hair">
+            <img src="sample4.jpeg" alt="Stylish man with blonde hair">
         </div>
         
         <div class="news">
