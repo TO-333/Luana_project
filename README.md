@@ -97,8 +97,8 @@
         <main>
             <main>
                 <div class="main-image">
-                    <img src="sample4.jpg" alt="Main image" width="800" height="600">
-                </div>
+                    <img src="sample4.jpg" width="800" height="600">
+                </div>                
             </main>            
             <div class="news-container">
                 <div class="news-header">お知らせ</div>
