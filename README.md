@@ -49,7 +49,7 @@
             justify-content: center;
             align-items: center;
             font-size: 24px;
-            color: #888;
+            color: #e68484;
         }
         .news {
             margin: 20px auto;
@@ -103,7 +103,7 @@
     
     <main>
         <div class="main-image-placeholder">
-            <img src="sample4.jpeg">
+            <img src="young-buck-salon.png">
         </div>
         
         <div class="news">
