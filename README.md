@@ -94,10 +94,10 @@
             </div>
             <nav>
                 <ul>
-                    <li>メニュー</li>
-                    <li>スタッフ</li>
-                    <li>ギャラリー</li>
-                    <li>問合せ</li>
+                    <li><a href="#menu">メニュー</a></li>
+                    <li><a href="#staff">スタッフ</a></li>
+                    <li><a href="#gallery">ギャラリー</a></li>
+                    <li><a href="#contact">問合せ</a></li>
                 </ul>
             </nav>
         </header>
