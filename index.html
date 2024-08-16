@@ -102,7 +102,7 @@
     
     <main>
         <div class="main-image-placeholder">
-            画像がここに表示されます
+            <img src="young-buck-salon.png" alt="Stylish man with blonde hair">
         </div>
         
         <div class="news">
