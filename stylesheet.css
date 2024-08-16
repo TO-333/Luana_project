@@ -49,8 +49,14 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    color: #888;
+    overflow: hidden;
+}
+
+.main-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* News Section */
@@ -89,6 +95,11 @@ footer p {
     margin: 5px 0;
     padding: 0;
     line-height: 1.5;
+}
+
+footer span {
+    border-bottom: 1px solid #0000FF;
+    display: inline-block;
 }
 
 footer span {
