@@ -95,8 +95,11 @@
             </nav>
         </header>
         <main>
-            <div class="main-image"></div>
-           　　 <img src="sample4.jpg">
+            <main>
+                <div class="main-image">
+                    <img src="sample4.jpg" alt="Main image" width="800" height="600">
+                </div>
+            </main>            
             <div class="news-container">
                 <div class="news-header">お知らせ</div>
                 <div class="news-content">
