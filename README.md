@@ -1,87 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hair & make Luana</title>
-    <link rel="stylesheet" href="luana-website-styles.css">
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .logo {
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .logo span {
-            font-size: 28px;
-            color: #000;
-        }
-        nav a {
-            margin-left: 20px;
-            text-decoration: none;
-            color: #000;
-        }
-        .main-image {
-            width: 100%;
-            height: 500px;
-            background-color: #f0f0f0;
-            margin-bottom: 20px;
-        }
-        .news-container {
-            border: 1px solid #000;
-            margin-bottom: 10px;
-        }
-        .news-header {
-            text-align: center;
-            font-weight: bold;
-            padding: 5px 0;
-            border-bottom: 1px solid #000;
-        }
-        .news-content {
-            padding: 0;
-        }
-        .news-item {
-            padding: 10px;
-        }
-        .news-item:not(:last-child) {
-            border-bottom: 1px solid #000;
-        }
-        .more-link {
-            text-align: center;
-            margin-top: 5px;
-        }
-        .more-link a {
-            color: #000;
-            text-decoration: none;
-        }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 12px;
-        }
-        footer p {
-            margin: 5px 0;
-        }
-        footer span {
-            text-decoration: underline;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="css/new-style.css">
 </head>
 <body>
     <div class="container">
@@ -95,7 +19,9 @@
             </nav>
         </header>
         <main>
-            <div class="main-image"></div>
+            <div class="main-image">
+                <img src="img/sample4.jpeg" alt="Luana Hair & Make Model">
+            </div>
             <div class="news-container">
                 <div class="news-header">お知らせ</div>
                 <div class="news-content">
